@@ -46,13 +46,7 @@ The React Solana Carbon Credit Tokenization application provides the following f
 
 ## Contributing
 
-Contributions to this project are welcome. If you find any bugs, have suggestions for improvement, or would like to add new features, please feel free to open issues and submit pull requests on the project's GitHub repository.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
+Contributions to this project are welcome. If you find any bugs, have suggestions for improvement, or would like to add new features, please feel free to open issues and submit pull requests on the project's GitHub repository.O
 
 ## Acknowledgments
 
@@ -61,8 +55,6 @@ This project utilizes the Metaplex framework and Candy Machine for NFT creation 
 - [Metaplex](https://metaplex.com/): A protocol for creating and managing NFTs on the Solana blockchain.
 - [Candy Machine](https://github.com/metaplex-foundation/metaplex/tree/master/js/packages/cli): A tool for managing and distributing NFTs using Solana's Serum and Metaplex.
 - Solana: The high-performance blockchain platform that powers decentralized applications on which this project is built.
-
-We would like to express our appreciation to the developers, contributors, and maintainers of these projects for their hard work and dedication to advancing the ecosystem of decentralized technologies.
 
 If you have any questions or need further assistance, please refer to the documentation and community resources provided by these projects.
 
