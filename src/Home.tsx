@@ -331,11 +331,10 @@ const Home = (props: HomeProps) => {
               </Heading>
 
               <p>
-                6942 Rejected f00kers here to f00k shit up. 3 mints max per
-                wallet. Free. f00k f00k Mother f00kers.
+               Buy Carbon tokens backed by real carbon credits 
               </p>
 
-              {guardStates.isStarted && (
+              {/* {guardStates.isStarted && (
                 <MintCount>
                   Total Minted : {candyMachineV3.items.redeemed}/
                   {candyMachineV3.items.available}{" "}
@@ -350,7 +349,7 @@ const Home = (props: HomeProps) => {
                     </>
                   )}
                 </MintCount>
-              )}
+              )} */}
 
               {!guardStates.isStarted ? (
                 <Countdown
@@ -409,7 +408,7 @@ const Home = (props: HomeProps) => {
                 {[...Array(21)].map((item, index) => (
                   <img
                     key={index}
-                    src={`/nfts/${index + 1}.jpeg`}
+                    src={`/nfts/${index + 1}.png`}
                     height="200px"
                     width="200px"
                     alt=""
@@ -424,7 +423,7 @@ const Home = (props: HomeProps) => {
                 {[...Array(21)].map((item, index) => (
                   <img
                     key={index}
-                    src={`/nfts/${index + 1}.jpeg`}
+                    src={`/nfts/${index + 1}.png`}
                     height="200px"
                     width="200px"
                     alt=""
