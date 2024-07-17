@@ -1,38 +1,19 @@
-# Candy Machine v3 UI
-Reference UI to implement Metaplex Candy Machine V3 on frontend.
+## CarbonFIX
+This application uses the Solana CLI and Sugar library to create and trade carbon credit NFTs. Minted on my website, these NFTs allow users to manage and trade their environmental impact in a decentralized marketplace.
 
-### Features/Todo
-- [x] Responsive UI
-- [x] Single Mint UI
-- [x] Multi Mint UI
-- [x] Start Time Countdown
-- [x] Preview Minted NFTs
-- [x] Guards Supported
-  - [x] Start Date
-  - [x] End Date
-  - [x] Sol Payment
-  - [x] Token Payment
-  - [x] Mint Limit
-  - [x] Bot Tax
-  - [x] Token Burn
-  - [x] Token Gate
-  - [x] NFT Payment
-  - [x] NFT Burn
-  - [x] NFT Gate
-  - [x] Redeemed Amount
-  - [ ] Third Party Signer
-  - [x] Address Gate
-  - [x] Allow List
-  - [x] Gatekeeper
+Deloyment Link: 
+https://dvd6tlti3q412.cloudfront.net/
 
-### Multi Group 
-*For Multi-group functionality use [restructure/multi-group](https://github.com/Solana-Studio/Candy-Machine-V3-UI/tree/restructure/multi-group) branch*
+## Working
 
-### Env Variables
-*All of them are optional at this moment as we're using default if they are not exists in [config.ts](src/config.ts)*
-- NEXT_PUBLIC_SOLANA_NETWORK=WalletAdapterNetwork
-- NEXT_PUBLIC_RPC_HOST=url
-- NEXT_PUBLIC_CANDY_MACHINE_ID=publickKey
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e0ef7b58-9015-46c2-b2dc-2f7cb73cfe44" alt="Description of image" ">
+</p>
 
-### Candy machine v3 Config & Initialization
-*For configuaration and initialization please refer to [official Metaplex docs](https://docs.metaplex.com/programs/candy-machine/overview). You can also use [SugerCLI alpha](https://docs.metaplex.com/developer-tools/sugar/guides/sugar-for-cmv3) for it.*
+## Technology Used
+1. React
+2. Solana CLI (To recieve the payment on each sale)
+3. Sugar Library (By Metaplex)
+4. AWS (Hosting & assest management)
+
+
